@@ -20,6 +20,7 @@ public class Move : MonoBehaviour {
 
     void FixedUpdate(){
         // Mathf.Clamp() 限制输入的范围
+	// 实际上好像没有用，不知道是哪里有问题
         t = Mathf.Clamp(t, 0, 4);
         startValue = Mathf.Clamp(startValue, 0, 10);
         endValue = Mathf.Clamp(endValue, startValue, 20);

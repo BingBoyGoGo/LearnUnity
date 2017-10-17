@@ -1,0 +1,9 @@
+Destroy
+Destroy()/DestroyImmediate()/DontDestroyOnLoad()
+
+Instantiate()
+
+Message
+SendMessage()
+SendMessageUpwards()
+BroadcastMessage()
